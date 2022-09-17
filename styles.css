@@ -1,3 +1,10 @@
+/* Keyword values for scalable size */
+* {
+    size: auto;
+    size: portrait;
+    size: landscape;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +17,7 @@ ul {
 
 
 body {
-    background-color: #3b3b3e;
+    background-color: #1E1E1E;
 
 
 }
@@ -27,7 +34,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #9572FC 0%, #4385e7 50.52%, #1d08b6 100%);
 
     border-radius: 50%;
 
@@ -48,7 +55,7 @@ header img {
 
 
 main {
-    max-width: 700px;
+    max-width: 600px;
     width: 90%;
     margin: 32px auto;
 
@@ -61,7 +68,7 @@ main {
 section {
     color: white;
 
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #9572FC 0%, #4385e7 50.52%, #1d08b6 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
